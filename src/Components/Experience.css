@@ -1,0 +1,84 @@
+/* Experience */
+.Experience {
+    margin: 160px 0 160px 0;
+}
+.ExperiebceList {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.Experience h1 {
+  height: 72px;
+  width: 629px;
+  left: 0px;
+  top: 0px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.ExperiebceList p {
+  margin: 0;
+  height: 22px;
+  width: 143px;
+  left: 0px;
+  top: 0px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.ExperienceContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.HeadLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.HeadLine h4 {
+  margin: 0;
+  height: 22px;
+  width: 271px;
+  left: 34px;
+  top: 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.OrangeCircle {
+  background-color: #fd5a14;
+  height: 22px;
+  width: 22px;
+  border-radius: 100%;
+}
+
+.ExperiencePlace {
+  margin-left: 32px;
+}
+
+.ExperienceText p{
+  height: 72px;
+  width: 467px;
+  left: 0px;
+  top: 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}

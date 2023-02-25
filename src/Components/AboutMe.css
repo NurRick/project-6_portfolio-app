@@ -1,0 +1,81 @@
+/* About me */
+
+.AboutMe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 169px 0 169px 0;
+  }
+  
+  .AboutMeText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .AboutMeText h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+  }
+  
+  .AboutMeText p{
+    height: 90px;
+    width: 629px;
+    left: 0px;
+    top: 104px;
+  }
+  
+  .AboutMeLine{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+  
+  .AboutMeLine p {
+    height: 22px;
+    width: 271px;
+    left: 34px;
+    top: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+  }
+  
+  .AboutMeLINE {
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+  }
+  
+  .AboutMeL {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .AboutMeLine {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+  
+  .number{
+    color: white;
+    height: 22px;
+    width: 22px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+  }
+  
+  .MyPhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Photo {
+    border-radius: 20px;
+  }

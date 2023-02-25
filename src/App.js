@@ -1,5 +1,6 @@
 import './App.css';
 import AboutMe from './Components/AboutMe';
+import Experience from './Components/Experience';
 import Header from './Components/Header';
 import Page1 from './Components/Page1';
 
@@ -10,7 +11,7 @@ function App() {
       <Header/>
       <Page1/>
       <AboutMe/>
-      <h1>Page3</h1>
+      <Experience/>
       <h1>Page4</h1>
       <h1>Page5</h1>
       <h1>Page6</h1>
