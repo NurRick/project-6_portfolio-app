@@ -1,5 +1,5 @@
 import './AboutMe.css';
-import { ONE, MyPhoto } from "./Images";
+import { MyPhoto } from './Images';
 
 function AboutMe() {
   return (
@@ -14,21 +14,21 @@ function AboutMe() {
         <div className="AboutMeLINE">
           <div className="AboutMeL">
             <div className="AboutMeLine">
-              <img className="number" src={ONE} />
+            <div className="GrayCircle"></div>
               <p>Lorem Ipsum Description Text</p>
             </div>
             <div className="AboutMeLine">
-              <img className="number" src={ONE} />
+            <div className="GrayCircle"></div>
               <p>Lorem Ipsum Description Text</p>
             </div>
           </div>
           <div className="AboutMeL">
             <div className="AboutMeLine">
-              <img className="number" src={ONE} />
+            <div className="GrayCircle"></div>
               <p>Lorem Ipsum Description Text</p>
             </div>
             <div className="AboutMeLine">
-              <img className="number" src={ONE} />
+            <div className="GrayCircle"></div>
               <p>Lorem Ipsum Description Text</p>
             </div>
           </div>

@@ -1,22 +1,24 @@
-import './App.css';
-import AboutMe from './Components/AboutMe';
-import Experience from './Components/Experience';
-import Header from './Components/Header';
-import Page1 from './Components/Page1';
+import "./App.css";
+import AboutMe from "./Components/AboutMe";
+import Experience from "./Components/Experience";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Page1 from "./Components/Page1";
+import Projects from "./Components/Projects";
+import SayHello from "./Components/SayHello";
 
 function App() {
   return (
     <div className="App">
       <div>
-      <Header/>
-      <Page1/>
-      <AboutMe/>
-      <Experience/>
-      <h1>Page4</h1>
-      <h1>Page5</h1>
-      <h1>Page6</h1>
-      <h1>Footer</h1>
-      </div>     
+        <Header />
+        <Page1 />
+        <AboutMe />
+        <Experience />
+        <Projects />
+        <SayHello />
+        <Footer/>
+      </div>
     </div>
   );
 }

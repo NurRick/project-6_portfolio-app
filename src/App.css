@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Inter:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Inter:wght@500&display=swap");
 
 html {
   background-color: #130125;
-  color:white;
+  color: white;
   width: 1519px;
 }
 
 .App {
   margin: 32px 80px 42px 80px;
-  font-family: 'Courier Prime', monospace;
-  background-color: #130125 ;
+  font-family: "Courier Prime", monospace;
+  background-color: #130125;
   display: flex;
   flex-direction: column;
 }
@@ -21,10 +21,10 @@ html {
 }
 
 .Header button {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   border: none;
   background-color: #130125;
-  color:white;
+  color: white;
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
@@ -61,7 +61,7 @@ html {
 }
 
 .Page1 button {
-  background-color: #FD5A14;
+  background-color: #fd5a14;
   color: white;
   border: none;
   margin-bottom: 160px;
@@ -72,6 +72,54 @@ html {
   font-weight: 700;
   line-height: 24px;
 }
+/* Say hello */
+.SayHello {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin: 160px 0 160px 0;
+}
 
+.SayHello h1 {
+  height: 72px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+}
 
+.SayHello p {
+  margin: 32px 0 40px 0;
+}
 
+.SayHello button {
+  background-color: #fd5a14;
+  color: white;
+  border: none;
+  width: 159px;
+  height: 56px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* Footer */
+.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 32px 0 32px 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color:white;
+}
+
+.FooterOpacity{
+  opacity: 0.5;
+}
+
+a {
+  color: white !important;
+  text-decoration: none
+}
