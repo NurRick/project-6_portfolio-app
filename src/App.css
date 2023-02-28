@@ -29,11 +29,13 @@ html {
   font-weight: 500;
   line-height: 22px;
   letter-spacing: 0em;
+
 }
 
 .HeaderButtons {
   display: flex;
   align-items: center;
+  gap: 12px;
 }
 
 /* Page1 */

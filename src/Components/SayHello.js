@@ -1,14 +1,9 @@
 import { GMAIL, LINKEDIN, TELEGRAM } from "./Images";
 
 function SayHello() {
-  const email = "https://mail.google.com/nmospanov@gmail.com";
-
-  function handleClick() {
-    window.location.href = `mailto:${email}`;
-  }
-
+  
   return (
-    <div className="SayHello">
+    <div className="SayHello" id='contacts'>
       <h1>Say Hello</h1>
       <p>I’m software developer and this is my portfolio.</p>
       <div className="SayHelloButtons">

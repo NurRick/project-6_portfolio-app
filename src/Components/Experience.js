@@ -23,7 +23,7 @@ function Experience() {
 
   
     return (
-    <div className="Experience">
+    <div className="Experience" id='experience'>
       <div>
         <h1>Experience</h1>
       </div>

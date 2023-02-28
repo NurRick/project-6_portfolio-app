@@ -10,20 +10,20 @@ import SayHello from "./Components/SayHello";
 
 function App(props) {
 
-  const [shouldScroll, setShouldScroll] = useState(false);
+  const [scrollTarget, setScrollTarget] = useState(null);
 
-  function handleButtonClick() {
-    setShouldScroll(true);
+  function handleButtonClick(id) {
+    setScrollTarget(id);
   }
   
-  useEffect(()=> {
-    if (shouldScroll) {
-      const targetElement = document.getElementById("aboutMe");
+  useEffect(() => {
+    if (scrollTarget) {
+      const targetElement = document.getElementById(scrollTarget);
       const targetElementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
       window.scrollTo({ top: targetElementPosition, behavior: "smooth" });
-      setShouldScroll(false);
+      setScrollTarget(null);
     }
-  },[shouldScroll])
+  }, [scrollTarget]);
   
 
   return (
