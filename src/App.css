@@ -80,6 +80,12 @@ html {
   margin: 160px 0 160px 0;
 }
 
+.SayHelloButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 50px
+}
+
 .SayHello h1 {
   height: 72px;
   font-size: 60px;
@@ -92,15 +98,35 @@ html {
 }
 
 .SayHello button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
   background-color: #fd5a14;
   color: white;
   border: none;
   width: 159px;
   height: 56px;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 24px;
+  gap: 5px;
+}
+
+.GetInTouch p {
+  margin: 0;
+
+}
+
+.gmail {
+  width: auto;
+  height: 32px;
+}
+
+.telega {
+  width: auto;
+  height: 32px;
 }
 
 /* Footer */

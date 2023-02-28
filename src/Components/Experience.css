@@ -2,7 +2,7 @@
 .Experience {
     margin: 160px 0 160px 0;
 }
-.ExperiebceList {
+.ExperienceList {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -20,7 +20,7 @@
   text-align: left;
 }
 
-.ExperiebceList p {
+.ExperienceList p {
   margin: 0;
   height: 22px;
   width: 143px;

@@ -1,9 +1,11 @@
 import './AboutMe.css';
 import { MyPhoto } from './Images';
 
+
 function AboutMe() {
+  
   return (
-    <div className="AboutMe">
+    <div className="AboutMe" id='aboutMe'>
       <div className="AboutMeText">
         <h1>About me</h1>
         <p>
