@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 169px 0 169px 0;
+    padding: 160px 0 160px 0;
   }
   
   .AboutMeText{
@@ -32,6 +32,13 @@
     gap: 12px;
   }
   
+  .AboutMe .AboutMeText .AboutMeLINE {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 24px;
+  }
+
+
   .AboutMeLine p {
     height: 22px;
     width: 271px;

@@ -1,6 +1,6 @@
 /* Experience */
 .Experience {
-    margin: 160px 0 160px 0;
+    padding: 160px 0 160px 0;
 }
 .ExperienceList {
   display: flex;

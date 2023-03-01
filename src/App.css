@@ -3,24 +3,34 @@
 html {
   background-color: #130125;
   color: white;
-  width: 1519px;
 }
 
 .App {
-  margin: 32px 80px 42px 80px;
+  padding: 0 85px 0 85px;
   font-family: "Courier Prime", monospace;
   background-color: #130125;
   display: flex;
   flex-direction: column;
 }
 /* Header */
-.Header {
+header {
+  width: 90%;
+  padding: 32px 0 32px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  background-color: #130125;
 }
 
-.Header button {
+header h1{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+header button {
   font-family: "Inter", sans-serif;
   border: none;
   background-color: #130125;
@@ -44,6 +54,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding: 160px 0 160px 0;
 }
 
 .Page1 h1 {
