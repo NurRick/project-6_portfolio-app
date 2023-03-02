@@ -132,6 +132,15 @@ header button {
 
 }
 
+.GetInTouch {
+  background: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.GetInTouch:hover {
+  transform: scale(1.5);
+}
+
 .gmail {
   width: auto;
   height: 32px;

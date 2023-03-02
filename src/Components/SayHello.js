@@ -5,7 +5,7 @@ function SayHello() {
   return (
     <div className="SayHello" id='contacts'>
       <h1>Say Hello</h1>
-      <p>I have a lot of passion to explore and learn new things and looking forward for opportunities.</p>
+      <p>I have a lot of passion to explore and learn new things and am looking forward to the opportunity.</p>
       <div className="SayHelloButtons">
         <button
           className="GetInTouch"
