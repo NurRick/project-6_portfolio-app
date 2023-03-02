@@ -1,6 +1,6 @@
 import "./AboutMe.css";
 import { MyPhoto } from "./Images";
-import json from "./JsonComponent/index.json";
+import json from "./index.json";
 
 function AboutMe() {
   return (

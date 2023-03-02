@@ -1,3 +1,7 @@
+.Projects {
+  gap: 80px;
+  margin: 64px 0 64px 0;
+}
 
 .Projects h1 {
   height: 72px;
@@ -13,8 +17,9 @@
 .ProjectsList {
   display: flex;
   flex-direction: row;
-  gap: 80px;
-  margin: 64px 0 64px 0;
+  gap: 186px;
+  padding: 64px 0 64px 0
+  
 }
 
 .Points {

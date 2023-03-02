@@ -1,0 +1,100 @@
+{
+    "data": {
+      "aboutMeSummary": "I have been studying programming for several months and I am looking for an opportunity to work as a front-end developer",
+      "aboutMe": [
+        "nFactorial student",
+        "Graduate of Karaganda State Technical University: bachelor and master degree",
+        "Language skills: Kazakh, English, Russian",
+        "Skills: Java, HTML, CSS, Javascript, React JS"
+      ],
+
+      "experience": [
+        {
+          "id": "0",
+          "year": "2019 - present time",
+          "position": "Lead Economist at Technical Economical Department.    HEAD DESIGN INSTITUTE of “Kazakhmys Corporation LLP”.",
+          "city": "Kazakhstan, Astana",
+          "description": "Development of a feasibility study. The composition of the staff to determine the payroll. Drawing up of a cash plan of the enterprise"
+        },
+        {
+          "id": "1",
+          "year": "2017 - 2019",
+          "position": "Lead Design Engineer of the Construction Department.    HEAD DESIGN INSTITUTE of “Kazakhmys Corporation LLP”.",
+          "city": "Kazakhstan, Astana",
+          "description": "Implementation of technical guidance over the performers throughout the entire design period"
+        },
+        {
+          "id": "2",
+          "year": "2015 - 2017",
+          "position": "Design Engineer of I-category of the Construction.    HEAD DESIGN INSTITUTE of “Kazakhmys Corporation LLP”.",
+          "city": "Kazakhstan, Astana",
+          "description": "Implementation of design and estimate documentation on time and in the proper quality"
+        },
+        {
+          "id": "3",
+          "year": "2014 - 2015",
+          "position": "Senior master and teacher of special subjects. “Karaganda Technical and Construction College”.",
+          "city": "Kazakhstan, Karagandy",
+          "description": ""
+        },
+        {
+          "id": "4",
+          "year": "2013 - 2014",
+          "position": "Master and teacher of special subjects.   “Karaganda Technical and Construction College”.",
+          "city": "Kazakhstan, Karagandy",
+          "description": ""
+        },
+        {
+          "id": "5",
+          "year": "2012 - 2013",
+          "position": "Foreman.“LLP Nord Prom NS”",
+          "city": "Kazakhstan, Temirtau",
+          "description": ""
+        },
+        {
+          "id": "6",
+          "year": "2012",
+          "position": "Engineer technologist of the chief technologist department. Joint Stock Company “Karaganda Woodworking Plant”",
+          "city": "Kazakhstan, Karagandy",
+          "description": ""
+        },
+        {
+          "id": "7",
+          "year": "2010 - 2012",
+          "position": "Production and technical department engineer. LLP “KazTemirStroy”",
+          "city": "Kazakhstan, Temirtau",
+          "description": ""
+        }
+      ],
+      "projects": [
+        {
+          "id": "0",
+          "name": "JumysTap",
+          "picture": "./Images/JumysTap.png",
+          "description": "Study project for learning HTML and CSS. Simple layout of a one-page site. During this project, we got to know Flex and Grid systems more closely.",
+          "link": "https://jumystap-p1.vercel.app/",
+          "linkName": "jumystap-p1.vercel.app",
+          "bullet": "HTML, CSS"
+        },
+        {
+          "id": "1",
+          "name": "Media as Medium",
+          "picture": "./Images/MediaAsMedium.png",
+          "description": "Website visuals and inteface for a non-profit organization with several opening pages, several forms that gather information into Google Document",
+          "link": "",
+          "linkName": "media-as-medium.vercel.app",
+          "bullet": "HTML, CSS, React JS, Bootstrap"
+        },
+        {
+          "id": "3",
+          "name": "To-Do List",
+          "picture": "./Images/To-do_list.png",
+          "description": "Study project that includes opening of several modal windows, addition of new items, changing categories and deleting of items",
+          "link": "",
+          "linkName": "to-do-list.vercel.app",
+          "bullet": "HTML, CSS, React JS, Bootstrap"
+        }
+      ]  
+    }
+  }
+  

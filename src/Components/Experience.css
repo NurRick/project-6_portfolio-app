@@ -4,8 +4,13 @@
 }
 .ExperienceList {
   display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.ExpList {
+  display: flex;
   flex-direction: row;
-  gap: 20px;
 }
 
 .Experience h1 {
@@ -36,6 +41,7 @@
 .ExperienceContent {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .HeadLine {
@@ -48,7 +54,7 @@
 .HeadLine h4 {
   margin: 0;
   height: 22px;
-  width: 271px;
+  width: 500px;
   left: 34px;
   top: 0px;
   font-family: "Inter", sans-serif;

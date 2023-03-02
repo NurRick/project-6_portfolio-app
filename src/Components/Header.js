@@ -1,20 +1,4 @@
-import { useRef } from "react";
 import React from "react";
-
-// function AboutButtonComponent(props) {
-//   const myRef = useRef(null);
-//   function handleClick() {
-//     const targetElement = document.getElementById("aboutMe");
-//     const targetElementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
-//     window.scrollTo({ top: targetElementPosition, behavior: "smooth" });
-//   }
-
-//     return (
-//     <button onClick={props.onClick}>
-//       About
-//     </button>
-//   );
-// }
 
 function ButtonComponent(props) {
   const scrollData = [

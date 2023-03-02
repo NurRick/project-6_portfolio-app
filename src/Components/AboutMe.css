@@ -20,6 +20,9 @@
   }
   
   .AboutMeText p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
     height: 90px;
     width: 629px;
     left: 0px;
