@@ -80,7 +80,7 @@
           "id": "1",
           "name": "Media as Medium",
           "picture": "./Images/MediaAsMedium.png",
-          "description": "Website visuals and inteface for a non-profit organization with several opening pages, several forms that gather information into Google Document",
+          "description": "A tutorial project for learning about JSON, XMLHttpRequest and Fetch .Also in this project we filled the page with data from the server",
           "link": "",
           "linkName": "media-as-medium.vercel.app",
           "bullet": "HTML, CSS, React JS, Bootstrap"
@@ -89,7 +89,7 @@
           "id": "3",
           "name": "To-Do List",
           "picture": "./Images/To-do_list.png",
-          "description": "Study project that includes opening of several modal windows, addition of new items, changing categories and deleting of items",
+          "description": "A tutorial project to create a To-do list that includes opening multiple modal windows, adding new items, changing categories, and deleting items.",
           "link": "",
           "linkName": "to-do-list.vercel.app",
           "bullet": "HTML, CSS, React JS, Bootstrap"
