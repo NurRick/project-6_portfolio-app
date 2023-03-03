@@ -1,90 +1,92 @@
 /* About me */
 
-.AboutMe{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 160px 0 160px 0;
-  }
-  
-  .AboutMeText{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .AboutMeText h1{
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 72px;
-  }
-  
-  .AboutMeText p{
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 30px;
-    height: 90px;
-    width: 629px;
-    left: 0px;
-    top: 104px;
-  }
-  
-  .AboutMeLine{
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-  }
-  
-  .AboutMe .AboutMeText .AboutMeLINE {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 24px;
-  }
+.AboutMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 160px 0 160px 0;
+}
 
+.AboutMeText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-  .AboutMeLine p {
-    height: 22px;
-    width: 271px;
-    left: 34px;
-    top: 0px;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 22px;
-    letter-spacing: 0em;
-  }
+.AboutMeText h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.AboutMeText p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  height: 90px;
+  width: 629px;
+  left: 0px;
+  top: 104px;
+}
+
+.AboutMeLine {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.AboutMe .AboutMeText .AboutMeLINE {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 24px;
+}
+
+.AboutMeLine p {
+  height: 22px;
+  width: 271px;
+  left: 34px;
+  top: 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+.AboutMeLINE {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.AboutMeL {
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutMeLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.GrayCircle {
+  background-color: #F9DBBB;
+  height: 22px;
+  width: 22px;
+  border-radius: 100%;
+}
+
+.MyPhoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Photo {
+  border-radius: 30px;
+  width: 380px;
+  height: auto;
   
-  .AboutMeLINE {
-    display: flex;
-    flex-direction: row;
-    gap: 10px
-  }
-  
-  .AboutMeL {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .AboutMeLine {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 12px;
-  }
-  
-  .GrayCircle {
-    background-color: gray;
-    height: 22px;
-    width: 22px;
-    border-radius: 100%;
-  }
-  
-  .MyPhoto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Photo {
-    border-radius: 20px;
-  }
+}

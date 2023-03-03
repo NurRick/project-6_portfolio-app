@@ -11,55 +11,62 @@
       "experience": [
         {
           "id": "0",
-          "year": "2019 - present time",
+          "year": "2022 -  . . .",
+          "position":"nFactorial Full-stack course student",
+          "city": "Kazakhstan, Astana",
+          "description": "In these courses we have studied: Java basics, HTML5 ,CSS, Javascript, React JS, Bootstrap, Material UI, Redux during and others, backend learning is still ahead!"
+        },
+        {
+          "id": "1",
+          "year": "2019 -  . . .",
           "position": "Lead Economist at Technical Economical Department.    HEAD DESIGN INSTITUTE of “Kazakhmys Corporation LLP”.",
           "city": "Kazakhstan, Astana",
           "description": "Development of a feasibility study. The composition of the staff to determine the payroll. Drawing up of a cash plan of the enterprise"
         },
         {
-          "id": "1",
+          "id": "2",
           "year": "2017 - 2019",
           "position": "Lead Design Engineer of the Construction Department.    HEAD DESIGN INSTITUTE of “Kazakhmys Corporation LLP”.",
           "city": "Kazakhstan, Astana",
           "description": "Implementation of technical guidance over the performers throughout the entire design period"
         },
         {
-          "id": "2",
+          "id": "3",
           "year": "2015 - 2017",
           "position": "Design Engineer of I-category of the Construction.    HEAD DESIGN INSTITUTE of “Kazakhmys Corporation LLP”.",
           "city": "Kazakhstan, Astana",
           "description": "Implementation of design and estimate documentation on time and in the proper quality"
         },
         {
-          "id": "3",
+          "id": "4",
           "year": "2014 - 2015",
           "position": "Senior master and teacher of special subjects. “Karaganda Technical and Construction College”.",
           "city": "Kazakhstan, Karagandy",
           "description": ""
         },
         {
-          "id": "4",
+          "id": "5",
           "year": "2013 - 2014",
           "position": "Master and teacher of special subjects.   “Karaganda Technical and Construction College”.",
           "city": "Kazakhstan, Karagandy",
           "description": ""
         },
         {
-          "id": "5",
+          "id": "6",
           "year": "2012 - 2013",
           "position": "Foreman.“LLP Nord Prom NS”",
           "city": "Kazakhstan, Temirtau",
           "description": ""
         },
         {
-          "id": "6",
+          "id": "7",
           "year": "2012",
           "position": "Engineer technologist of the chief technologist department. Joint Stock Company “Karaganda Woodworking Plant”",
           "city": "Kazakhstan, Karagandy",
           "description": ""
         },
         {
-          "id": "7",
+          "id": "8",
           "year": "2010 - 2012",
           "position": "Production and technical department engineer. LLP “KazTemirStroy”",
           "city": "Kazakhstan, Temirtau",
