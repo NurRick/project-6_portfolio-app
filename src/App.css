@@ -3,6 +3,7 @@
 html {
     color: white;
     font-family: "Courier Prime", monospace;
+    scroll-behavior: smooth;
 }
 
 .App {
@@ -44,7 +45,11 @@ header button {
 .HeaderButtons {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
+}
+
+.HeaderButton:hover {
+  transform: scale(1.5);
 }
 
 /* Page1 */
@@ -85,6 +90,11 @@ header button {
   font-weight: 700;
   line-height: 24px;
 }
+
+.Page1 button:hover {
+  transform: scale(1.5);
+}
+
 /* Say hello */
 .SayHello {
   display: flex;
@@ -138,6 +148,7 @@ header button {
 
 /* Footer */
 .Footer {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

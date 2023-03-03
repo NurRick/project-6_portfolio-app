@@ -12,7 +12,7 @@ function ButtonComponent(props) {
   return (
     <div className="HeaderButtons">
       {scrollData.map((data) => (
-        <button key={data.id} onClick={() => props.onClick(data.id)}>
+        <button className="HeaderButton" key={data.id} onClick={() => props.onClick(data.id)}>
           {data.label}
         </button>
       ))}
